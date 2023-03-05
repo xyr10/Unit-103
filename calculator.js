@@ -1,0 +1,3 @@
+appendNumber(number){
+    if (number === )
+}

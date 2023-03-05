@@ -1,0 +1,98 @@
+/* global */
+
+/* utilities */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #bcbc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle-rows{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-row{
+    display: flex;
+    justify-content: space-around;
+}
+.dark-grey-buttons{
+    background-color: #292922;
+    font: white;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+.orange-buttons{
+    background-color: orange;
+    font: white;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+.light-grey-button{
+    background-color: darkgrey;
+    font: white;
+    border-radius: 50px;
+}
+.light-grey-buttons{
+    background-color: rgb(128, 120, 120);
+    font: black;
+    border-radius: 50px;
+    margin: 5px 5px;
+}
+/* header */
+
+
+
+/* main */
+.winston{
+    height: 2200px;
+    width: 2200px;
+
+}
+.calculator{
+    display: grid;
+    position: absolute;
+    background: black;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: none;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display-box: 50px;
+    justify-content: left;
+    margin: 20px 20px 20px;
+}
+form .display input{
+    text-align: right;
+    width: 500px;
+    flex: 1;
+    border-radius: 2px;
+    font-size: 80px;
+    font: helvetica, sans-serif;
+    box-shadow: none;
+}
+form input.zero{
+    width: 215px;
+    border-radius: 30px;
+}
